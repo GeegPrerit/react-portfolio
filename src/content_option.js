@@ -1,156 +1,114 @@
-const logotext = "JOHN";
+import img from "./assets/images/prerit-image.png"
+import img2 from "./assets/images/Profile-picture.png"
+import projet_img from "./assets/images/project-1.png"
+import projet_img2 from "./assets/images/project-2.png"
+import projet_img3 from "./assets/images/project-3.png"
+const logotext = "Prerit";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Prerit Khandelwal",
+    description: "I’m Prerit Khandelwal Full stack devloper, Software Developer enthusiast currently looking for opportunity.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Prerit Khandelwal",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I can code cool websites",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Welcome to my profile! I have completed Master’s in Computer Application at JECRC University, with a strong foundation in Computer Applications.",
+    your_img_url: img,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "a bit about my self",
+    aboutme: " As a Traniee-Associate at Kanini Software Solution, I am actively contributing to real-world projects and honing my skills in software development.I have hands-on experience in creating impactful solutions, as evidenced by projects like Make Your Trip, a React-based platform for seamless travel experiences, and Our Hospital React Website, where I implemented role-based access and secure token-based authentication in C.Certified in C#, Google Cloud, Salesforce, and more, my technical skills span various languages and developer tools. Having led a team in the SIH Hackathon and participated in TECH-A-THON organized by iNeuron, I am not only technically proficient but also a collaborative and effective team player.Let's connect and explore the possibilities in the dynamic world of software development and innovation!.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    jobtitle: "Traniee Associate Intern",
+    where: "Kanini Software Solutions, Chennai",
+    date: "Feb. - Nov. 2023",
+},
+{
+    jobtitle: "Salesforce Developer Intern",
+    where: "AICTE (Remote)",
+    date: "2022",
+}
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+    name: "Java",
+    value: 90,
+},
+{
+    name: "C++",
+    value: 85,
+},
+{
+    name: "React",
+    value: 60,
+},
+{
+    name: "Angular",
+    value: 60,
+},
+
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    title: "Servicenow",
+    description: "Experienced in ServiceNow development, proficient in creating custom applications, workflows, and configurations. Seeking opportunities for further growth and collaboration.",
+},
+{
+    title: "Salesforce",
+    description: "Salesforce developer with expertise in customizing workflows and building applications. Proficient in Apex, Visualforce, and Lightning components. Last used in 2021, quickly recall skills within a week",
+}
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    img: projet_img2,
+    description: "Our Hospital",
+    link: "https://github.com/GeegPrerit/Health_Care",
+},
+{
+    img: projet_img,
+    description: "Make Your Trip - Travel Agency Website",
+    link: "https://github.com/GeegPrerit/Kanini-Tourism",
+},
+{
+    img: projet_img3,
+    description: "Snap Scheduler",
+    link: "https://github.com/GeegPrerit/Kanini-Tourism",
+},
+    // {
+    //     img: "https://picsum.photos/400/600/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // },
+    // {
+    //     img: "https://picsum.photos/400/300/?grayscale",
+    //     description: "The wisdom of life consists in the elimination of non-essentials.",
+    //     link: "#",
+    // }
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "prerit.web@gmail.com",
+    YOUR_FONE: "(+91)797-627-1478",
+    description: "Feel free to contact me for any inquiries or provide feedback. I'm here to assist you. ☺ ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_jdxsk2a",
+    YOUR_TEMPLATE_ID: "template_vj08dah",
+    YOUR_USER_ID: "Z4YOXgov-cwzz_Zeo",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/PreritKhandelwal98",
+    facebook: "https://www.facebook.com/prerit.khandelwal.39/",
+    linkedin: "https://www.linkedin.com/in/mrpreritkhandelwal/",
+    twitter: "https://twitter.com/PreritWeb",
+    instragram: "https://www.instagram.com/khandelwalprerit?igsh=d29ocXF5cnY0a2Nw"
+
 };
 export {
     meta,

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Button } from "react-bootstrap";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
@@ -11,6 +12,10 @@ import {
 } from "../../content_option";
 
 export const About = () => {
+  const handleDownload = () => {
+    const cvUrl = process.env.PUBLIC_URL + "/pdfs/PreritKhandelwal-Resume.pdf";
+    window.open(cvUrl, "_blank");
+  };
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -32,6 +37,9 @@ export const About = () => {
           <Col lg="7" className="d-flex align-items-center">
             <div>
               <p>{dataabout.aboutme}</p>
+              <Button variant="dark" onClick={handleDownload}>
+                <b>Download CV</b>
+              </Button>
             </div>
           </Col>
         </Row>
